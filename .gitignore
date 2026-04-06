@@ -1,1 +1,31 @@
+# Dependencias
 node_modules
+.pnpm-store
+
+# Variables de entorno — NUNCA subir al repo
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build outputs
+.next
+dist
+.output
+.cache
+
+# Cloudflare
+.wrangler
+.dev.vars
+
+# Drizzle migrations (generadas localmente)
+drizzle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
