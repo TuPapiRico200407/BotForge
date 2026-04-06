@@ -1,0 +1,4 @@
+
+> @botforge/core@0.1.0 typecheck F:\BotForge\packages\core
+> tsc --noEmit
+

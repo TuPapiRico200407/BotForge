@@ -1,0 +1,37 @@
+## Reglas duras
+- Todo debe separarse por `bot_id`.
+- Los clientes no deben ver bots ajenos.
+- El sistema debe permitir bots con IA y bots sin IA.
+- Si el usuario toca botón/lista o coincide palabra clave, la automatización tiene prioridad.
+- Si el usuario escribe texto libre, puede intervenir IA si está activada.
+- Si el usuario manda nota de voz:
+  - debe almacenarse;
+  - debe poder reproducirse en bandeja;
+  - debe transcribirse;
+  - la IA debe interpretar la transcripción para detectar intención;
+  - si la intención detectada coincide con una palabra clave, automatización, link o plantilla configurada del bot, el sistema debe responder automáticamente con esa respuesta configurada;
+  - si la transcripción es ambigua, incompleta, de baja confianza o no entendible, la conversación debe derivarse automáticamente a un administrador/agente del bot.
+- Si el usuario manda imagen, documento u otro archivo:
+  - debe registrarse;
+  - debe poder visualizarse o abrirse desde bandeja;
+  - la conversación debe derivarse automáticamente a humano.
+- Si la IA no resuelve, la conversación debe pasar a humano o modo manual.
+- La IA no debe inventar respuestas operativas cuando exista una respuesta configurada por palabra clave, link, plantilla o intención.
+- Cada bot puede tener:
+  - su propio número/config de WhatsApp;
+  - su propia key/config de Cerebras;
+  - sus propios links;
+  - sus propias palabras clave;
+  - sus propias plantillas.
+- Kyte se manejará como link externo, no como fuente maestra vía API en MVP.
+- Todo lo crítico debe quedar persistido:
+  - saludos,
+  - ubicación,
+  - links enviados,
+  - mensajes entrantes/salientes,
+  - estado de conversación,
+  - uso de plantillas,
+  - eventos de automatización,
+  - transcripciones,
+  - resultados de interpretación IA,
+  - handoff a humano.

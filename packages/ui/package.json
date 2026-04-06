@@ -1,0 +1,19 @@
+{
+  "name": "@botforge/ui",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.6.3",
+    "tailwindcss": "^3.4.1",
+    "@botforge/eslint-config": "workspace:*",
+    "@botforge/typescript-config": "workspace:*"
+  }
+}

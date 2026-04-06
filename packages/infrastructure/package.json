@@ -1,0 +1,29 @@
+{
+  "name": "@botforge/infrastructure",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx src/db/seed.ts"
+  },
+  "dependencies": {
+    "@botforge/core": "workspace:*",
+    "@supabase/supabase-js": "^2.101.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.10",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@botforge/eslint-config": "workspace:*",
+    "@botforge/typescript-config": "workspace:*",
+    "@types/node": "^20.0.0",
+    "drizzle-kit": "^0.20.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.6.3"
+  }
+}
