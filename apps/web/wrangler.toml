@@ -1,0 +1,6 @@
+name = "botforge-web"
+main = ".open-next/worker.js"
+compatibility_date = "2024-04-05"
+
+[build]
+command = "pnpm run build"
