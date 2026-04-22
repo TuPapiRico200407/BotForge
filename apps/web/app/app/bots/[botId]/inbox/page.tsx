@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 "use client";
 import { useEffect, useState, useRef } from 'react';
 import { EmptyState, ChatBubble, Composer, ConversationListCard } from '@botforge/ui';

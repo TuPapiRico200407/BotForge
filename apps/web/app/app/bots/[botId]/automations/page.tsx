@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 "use client";
 import { useEffect, useState } from 'react';
 import { Card, Button, Input, Modal } from '@botforge/ui';
