@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: 'BotForge',
   description: 'Plataforma Web/App Multi-Bot para WhatsApp',

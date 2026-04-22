@@ -3,10 +3,10 @@
   "/login/page": "app/login/page.js",
   "/page": "app/page.js",
   "/app/bots/page": "app/app/bots/page.js",
-  "/app/bots/[botId]/inbox/page": "app/app/bots/[botId]/inbox/page.js",
-  "/app/bots/[botId]/members/page": "app/app/bots/[botId]/members/page.js",
-  "/app/bots/[botId]/automations/page": "app/app/bots/[botId]/automations/page.js",
-  "/app/bots/[botId]/settings/page": "app/app/bots/[botId]/settings/page.js",
   "/app/bots/[botId]/dashboard/page": "app/app/bots/[botId]/dashboard/page.js",
-  "/app/bots/[botId]/settings/whatsapp/page": "app/app/bots/[botId]/settings/whatsapp/page.js"
+  "/app/bots/[botId]/automations/page": "app/app/bots/[botId]/automations/page.js",
+  "/app/bots/[botId]/members/page": "app/app/bots/[botId]/members/page.js",
+  "/app/bots/[botId]/inbox/page": "app/app/bots/[botId]/inbox/page.js",
+  "/app/bots/[botId]/settings/whatsapp/page": "app/app/bots/[botId]/settings/whatsapp/page.js",
+  "/app/bots/[botId]/settings/page": "app/app/bots/[botId]/settings/page.js"
 }
