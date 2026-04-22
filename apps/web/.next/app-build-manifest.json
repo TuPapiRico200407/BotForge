@@ -1,3 +1,96 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/_not-found/page-ecf04618a4ed06f8.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/css/bbff8f20d9fb8d56.css",
+      "static/chunks/app/layout-ab44f2f79a3a0f32.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/login/page-7001143e23adaa8a.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/page-41349b8381f8fcad.js"
+    ],
+    "/app/bots/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/page-4fe2ae9e1797cade.js"
+    ],
+    "/app/layout": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/layout-0d18346efefd3ffd.js"
+    ],
+    "/app/bots/[botId]/inbox/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/inbox/page-dab22f5401b7d48a.js"
+    ],
+    "/app/bots/[botId]/layout": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/layout-87e21340cca80730.js"
+    ],
+    "/app/bots/[botId]/members/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/members/page-8fc089d1d0d64f49.js"
+    ],
+    "/app/bots/[botId]/automations/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/automations/page-87e4d291ff600b23.js"
+    ],
+    "/app/bots/[botId]/settings/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/settings/page-93dffcb47ad1961d.js"
+    ],
+    "/app/bots/[botId]/dashboard/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/dashboard/page-516955d9922e7ee3.js"
+    ],
+    "/app/bots/[botId]/settings/whatsapp/page": [
+      "static/chunks/webpack-0681e28b203f1c46.js",
+      "static/chunks/65d48fa5-bd7f0d375020e181.js",
+      "static/chunks/801-f5519fe09ac164b2.js",
+      "static/chunks/main-app-89d1c645227fe03a.js",
+      "static/chunks/app/app/bots/[botId]/settings/whatsapp/page-3bb98ec7dece1274.js"
+    ]
+  }
 }
