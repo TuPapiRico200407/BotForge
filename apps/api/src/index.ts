@@ -1,5 +1,4 @@
 import { OpenAPIHono } from '@hono/zod-openapi';
-import { serve } from '@hono/node-server';
 import { swaggerUI } from '@hono/swagger-ui';
 import { cors } from 'hono/cors';
 
@@ -11,9 +10,13 @@ import { automationsRoutes } from './routes/automations';
 
 const app = new OpenAPIHono();
 
-// Global CORS (para aceptar a Next.js)
+// Global CORS
 app.use('*', cors({
-  origin: ['http://localhost:3000'],
+  origin: [
+    'http://localhost:3000',
+    'https://botforge1.pages.dev',
+    'https://*.botforge1.pages.dev',
+  ],
   allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
@@ -22,10 +25,10 @@ app.use('*', cors({
 // Endpoints
 app.route('/api/auth', authRoutes);
 app.route('/api/bots', botsRoutes);
-app.route('/api/webhooks', webhooksRoutes); // Sin JWT auth para Meta
+app.route('/api/webhooks', webhooksRoutes);
 
-app.route('/api', inboxRoutes); // Tiene su authMiddleware mapeado internamente
-app.route('/api', automationsRoutes); // Tiene authMiddleware 
+app.route('/api', inboxRoutes);
+app.route('/api', automationsRoutes);
 
 // Swagger
 app.doc('/openapi.json', {
@@ -34,5 +37,5 @@ app.doc('/openapi.json', {
 });
 app.get('/docs', swaggerUI({ url: '/openapi.json' }));
 
-serve({ fetch: app.fetch, port: 3001 });
-console.log('BotForge API started on http://localhost:3001');
+// Export for Cloudflare Workers
+export default app;
